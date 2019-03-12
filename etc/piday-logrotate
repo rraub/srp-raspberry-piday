@@ -1,0 +1,13 @@
+/home/pi/srp/piday/output.csv {
+  rotate 365
+  daily 
+  missingok
+  notifempty
+  sharedscripts
+  copytruncate
+  nocompress
+  olddir /home/pi/srp/piday/data-to-upload/data/
+  dateext
+}
+
+
