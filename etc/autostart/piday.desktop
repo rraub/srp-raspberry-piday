@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[Desktop Entry]
+Exec= /home/pi/srp/piday/etc/start.sh 
+Type=Application
+
