@@ -1,8 +1,15 @@
-Metadata!
+Data about your Data: Metadata!
+help us understand a little more about the data your generating! 
 
 
-Where is your solar cell installed? (location, orientation, etc) 
+Whats a good email address for you? (contact info):
 
-Are there any trees that shade it?
+Where is your solar cell installed? (location, orientation, etc): 
+
+Does it ever get any shade?
+
+
+If you want to add some photos, just copy them into this directory!
+
 
 

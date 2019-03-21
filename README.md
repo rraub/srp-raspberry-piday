@@ -12,5 +12,11 @@ aws configure
 
 ```
 
+
+Your data will get written to /home/pi/srp/piday/output.csv and then once a day get moved into data-to-upload/data/ where it gets uploaded to Amazon.
+
+
 inspired by: https://medium.com/@jdc_cunningham/how-to-connect-a-solar-panel-to-a-raspberry-pi-3fc15b7943ba
+
+
 
