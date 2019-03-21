@@ -12,5 +12,7 @@
 # 3:14 and 4:30 am -> upload data 
 14 3 * * * /home/pi/srp/piday/etc/upload.sh >>  /home/pi/srp/piday/logs/upload.log
 30 4 * * * /home/pi/srp/piday/etc/upload.sh >>  /home/pi/srp/piday/logs/upload.log
-# 4:01 am update yourself
-1 4 * * * /home/pi/srp/piday/etc/update-piday.sh >>  /home/pi/srp/piday/logs/self-update.log
+
+# 3:45 am update yourself
+45 3 * * * /home/pi/srp/piday/etc/update-piday.sh >>  /home/pi/srp/piday/logs/self-update.log
+
