@@ -9,6 +9,7 @@ set +x
 echo "install logrotate config"
 ln -f -s $DIR/etc/piday-logrotate /etc/logrotate.d/piday-logrotate 
 chown root /etc/logrotate.d/piday-logrotate
+chown root $DIR/etc/piday-logrotate
 
 
 echo "enable piday script start on boot"
