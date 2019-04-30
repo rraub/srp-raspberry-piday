@@ -16,7 +16,8 @@
 # 3:45 am update yourself
 45 3 * * * /home/pi/srp/piday/etc/update-piday.sh >>  /home/pi/srp/piday/logs/self-update.log 2>&1
 
-# Capture some info about the pi every 5 minutes
-*/5 * * * * /home/pi/srp/piday/etc/raspberrypi-stats.sh >>  /home/pi/srp/piday/logs/raspberrypi-info.log 2>&1
+# Capture some info about the pi every 15 minutes
+*/15 * * * * /home/pi/srp/piday/etc/raspberrypi-stats.sh >>  /home/pi/srp/piday/logs/raspberrypi-info.log 2>&1
 
+30 2 * * * /usr/sbin/logrotate -s /home/pi/logrotate/status /home/pi/srp/piday/etc/piday-logrotate >> /home/pi/srp/piday/logs/logrotate.log 2>&1
 
